@@ -6,6 +6,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
+	background-color: #FDFFFC;
 }
 a{
 	text-decoration: none;
@@ -89,43 +90,13 @@ a{
 	color: green;
 }
 
-.hero-container{
-	width: 100%;
-	margin: 0;
-}
-
-.hero-image{
-	width: 100%;
-	height: 500px;
-	background-image: url("hero-image.jpg");
-	background-size: cover;
-	background-position: center;
+.heading{
+	width: 90%;
+	border-bottom: 2px solid green;
 	margin: 0 auto;
-	position: relative;
-}
-
-
-.welcome{
-	position: absolute;
-	color: #CCFFBB;
-	text-transform: uppercase;
-	font-size: 18px;
-	font-weight: bold;
-	bottom: 100px;
-	left: 0px;
-	right: 0px;
 	text-align: center;
-}
-
-.cville{
-	position: absolute;
 	font-family: 'Pacifico', cursive;
-	font-size: 40px;
-	bottom: 10px;
-	left: 0px;
-	right: 0px;
-	color: #FDFFFC;
-	text-align: center;
+	padding-top: 20px;
 }
 
 .section-2{
@@ -156,7 +127,7 @@ a{
 }
 
 .two{
-	background-image: url("bottom.jpg");
+	background-image: url("girls_bible.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -178,8 +149,37 @@ a{
 	text-align: center;
 	font-size: 15px;
 	vertical-align: top;
-	color: green;
 	margin: 0 auto;
+	color: green;
 
 }
 
+.one-b{
+	background-image: url("dads.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.three-b{
+	background-image: url("boys_bible.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.two-c{
+	background-image: url("summer.jpg");
+	background-size: cover;
+	background-position: center;	
+}
+
+.one-d{
+	background-image: url("mountain.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.three-d{
+	background-image: url("mlk.jpg");
+	background-size: cover;
+	background-position: center;
+}
