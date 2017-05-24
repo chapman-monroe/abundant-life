@@ -111,7 +111,7 @@ a{
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: bold;
-	top: 30px;
+	bottom: 100px;
 	left: 0px;
 	right: 0px;
 	text-align: center;
@@ -155,6 +155,12 @@ a{
 	margin-left: 55px;
 }
 
+.two{
+	background-image: url("bottom.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
 .top{
 	font-family: 'Pacifico', cursive;
 	text-align: center;
@@ -175,4 +181,6 @@ a{
 	vertical-align: top;
 	color: green;
 	margin: 0 auto;
+
 }
+
