@@ -1,0 +1,75 @@
+/* Sometimes browsers (like Chrome) assume some default padding and margin. This is annoying for web designers since different browsers (like Safari) assume different defaults, making pages look inconsistent. This resets everything back to normal. */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+#titleblock1 {
+	position: relative;
+	background-image: url("mission.jpg");
+	background-size: cover;
+	width: 50%;
+	height: 600px;
+	display: inline-block;
+}
+
+#titleblock1 h1 {
+	height: 600px;
+	position: absolute;
+	top: 35%;
+	font-size: 70px;
+	color: white;
+	left: 20%;
+}
+
+#text1 {
+	float: right;
+	display: inline-block;
+	width: 50%;
+	height: 600px;
+}
+
+#titleblock2 {
+	position: relative;
+	background-image: url("mission.jpg");
+	background-size: cover;
+	width: 50%;
+	height: 1200px;
+	display: inline-block;
+	float: right;
+	top: 50%;
+}
+
+#titleblock2 h1 {
+	text-align: center;
+	height: 600px;
+	position: absolute;
+}
+
+#text2 {
+	display: inline-block;
+	width: 50%;
+	height: 600px;
+}
+
+#titleblock3 {
+	position: relative;
+	background-image: url("mission.jpg");
+	background-size: cover;
+	width: 50%;
+	height: 600px;
+	display: inline-block;
+}
+
+#titleblock3 h1 {
+	text-align: center;
+	height: 600px;
+	position: absolute;
+}
+
+#text3 {
+	display: inline-block;
+	width: 50%;
+	height: 600px;
+}
+
